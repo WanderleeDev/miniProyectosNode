@@ -17,7 +17,7 @@ export function displayMenu() {
 }
 
 export function escogerOption() {
-  //  bre la comunicación con la terminal
+  //  abre la comunicación con la terminal
   rl.question('Digital el número de opción ', (option) => {
     switch (option) {
       case "1":

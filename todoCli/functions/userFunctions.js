@@ -41,6 +41,7 @@ function completedTasks () {
     } else {
       console.log('tarea inexistente ❌');
     }
+    
     displayMenu()
     escogerOption()
   })
