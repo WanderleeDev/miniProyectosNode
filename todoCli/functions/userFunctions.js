@@ -26,7 +26,6 @@ function listTasks() {
         ? console.log(chalk.green(`${i + 1}. ${status} - ${task.task}`)) 
         : console.log(chalk.red(`${i + 1}. ${status} - ${task.task}`))
     });
-
   displayMenu()
   escogerOption()
 }
@@ -46,7 +45,7 @@ function completedTasks () {
     escogerOption()
   })
 }
-
+2
 const userFunctions = {
   addTask,
   listTasks,
