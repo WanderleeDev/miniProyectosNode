@@ -1,7 +1,7 @@
 import chalk from 'chalk'
 import { rl, displayMenu, escogerOption } from "./interfaceCli.js";
 import { tasks } from "./listTasks.js";
-import { saveTasks, loadTasks} from "./serverFunctions.js";
+import { saveTasks } from "./serverFunctions.js";
 
 function addTask() {
   rl.question(chalk.bgCyanBright("Escribe la tarea: "), (task) => {
